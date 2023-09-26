@@ -6,10 +6,10 @@
 
 ### Screenshots
 
-    - reqestSync
-    ![Alt text](image.png)
-    - requestAsync
-    ![Alt text](image-1.png)
+- reqestSync
+![Alt text](image.png)
+- requestAsync
+![Alt text](image-1.png)
 
 ### Questions
 
