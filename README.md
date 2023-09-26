@@ -6,10 +6,13 @@
 
 ### Screenshots
 
-    - reqestSync
-    ![Alt text](image.png)
-    - requestAsync
-    ![Alt text](image-1.png)
+- reqestSync
+
+![Alt text](image.png)
+
+- requestAsync
+
+![Alt text](image-1.png)
 
 ### Questions
 
@@ -24,13 +27,19 @@
 - We've known the 3 ways to implement async functions, how do we choose from them and what are their pros and cons?
 
   - callback
+    
     pros: 在舊版的 js 環境中可以用，簡單的非同步操作用 callback 是較為簡潔的方式。
+    
     cons: 錯誤處理較為複雜，code 可讀性較低，有可能會出現 callback hell。
   - promise
+    
     pros: 以 chain 的方式串起來，code 可讀性較高，錯誤處理可以直接用 catch 來捕捉錯誤，且可以在任何函數中使用。
+    
     cons: 在多個非同步操作時可能會產生很長一串的 promise，可讀性會降低。
   - async/await
+    
     pros: 可讀性更高也很易用，錯誤可以直接用 try/catch 抓。
+    
     cons: 只能用在 async 函數中使用。
   - 結論:
     一般可以直接選用 async/await 或是 promise，如果在較簡單的場景可以用 callback。
