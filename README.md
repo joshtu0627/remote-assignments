@@ -41,8 +41,11 @@
 ---
 
 1. How do you make sure that you can connect into your RDS? And please post the successfully connected screen shot.
+
    - 用 ec2 連線至 rds 來確認。
+
      ![Alt text](image-2.png)
+
 2. Without Elastic IP, if we stop the EC2 instance and start it again, would the IP address change? Why?
    - ip 會變動，如果不為 ec2 設定彈性 ip，則 ec2 會得到的為動態 ip，每次重新開啟 instance 時的 ip 會改變。
 3. What's the purpose of using Elastic IP?
